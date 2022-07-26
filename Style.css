@@ -20,31 +20,31 @@ main {
 }
 
 .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     background-color: #ffffff;
     width: 870px;
     /* height: 670px; */
-    padding: 30px;
+    padding: 10px;
     border-radius: 10px;
     margin-top: 24px;
 }
 
 .Transfer {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    /* display: grid; */
     grid-column-gap: 24px;
+    border: red;
+    border-radius: 10px;
+    /* grid-template-columns: repeat(3, 1fr); */
 }
 
-.Transfer .Match-title img {
-    width: 224px;
-    height: 104px;
+.Transfer .Match-banner img {
+    width: 280px;
+    height: 150px;
 }
 
 .match-info {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-}
-
-.fa-message-dots {
-    color: gray
+    /* justify-content: space-between; */
 }
