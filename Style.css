@@ -31,20 +31,20 @@ main {
 }
 
 .Transfer {
-    /* display: grid; */
-    grid-column-gap: 24px;
-    border: red;
+    border: 1px solid gray;
     border-radius: 10px;
-    /* grid-template-columns: repeat(3, 1fr); */
+    margin-right: 20px;
 }
 
 .Transfer .Match-banner img {
-    width: 280px;
+    width: 300px;
     height: 150px;
 }
 
 .match-info {
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
+    justify-content: left;
+    margin-bottom: 20px;
+
 }
